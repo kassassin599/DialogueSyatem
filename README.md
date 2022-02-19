@@ -6,10 +6,10 @@ This plugin provides a solution for the Dialogue system in the mobile or touch b
 
 ### Instructions
 - In the prefab folder you can find Canvas and a Dialogue parent prefab. if you prefer to use your own canvas, please adjust the UI elements to fit your screen or you can set "canvas scaler" component values as, 
-- - UI Scale Mode - Scale with screen size
-- - Reference Resolution - X 1920 Y 1080
-- - Screen Match Mode - Match Width Or Height
-- - Match - 0.5
+  - UI Scale Mode - Scale with screen size
+  - Reference Resolution - X 1920 Y 1080
+  - Screen Match Mode - Match Width Or Height
+  - Match - 0.5
 
 - Drag Dialogue parent prefab in your canvas, with this prefab, you can find ChatManager.cs script attached. It contains references to everthing.
 - However, Chat Object and CHaracter object are empty, we'll be creating those and assigninig them here.
