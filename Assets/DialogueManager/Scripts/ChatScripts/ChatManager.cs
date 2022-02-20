@@ -14,24 +14,24 @@ public class ChatManager : MonoBehaviour
 
     [Header("Chat UI properties")]
     [SerializeField]
-    TextMeshProUGUI bossDialogueText;
+    TextMeshProUGUI rightSideDialogueText;
     [SerializeField]
-    TextMeshProUGUI playerDialogueText;
+    TextMeshProUGUI leftSideDialogueText;
 
     [SerializeField]
-    GameObject bossDialogue;
+    GameObject rightSideDialogue;
     [SerializeField]
-    GameObject playerDialogue;
+    GameObject leftSideDialogue;
 
     [SerializeField]
-    GameObject bossDisplayPic;
+    GameObject leftSideDisplayPic;
     [SerializeField]
-    GameObject playerDisplayPic;
+    GameObject rightSideDisplayPic;
 
     [SerializeField]
-    GameObject bossDialogueBGImage;
+    GameObject leftSideDialogueBGImage;
     [SerializeField]
-    GameObject playerDialogueBGImage;
+    GameObject rightSideDialogueBGImage;
 
     [SerializeField]
     GameObject continueButton;
@@ -66,32 +66,32 @@ public class ChatManager : MonoBehaviour
         switch (chat.chats[count].chooseSide)
         {
             case Side.LeftSide:
-                bossDialogue.SetActive(true);
-                playerDialogue.SetActive(false);
+                rightSideDialogue.SetActive(true);
+                leftSideDialogue.SetActive(false);
 
                 CharacterProfile bossSide = chat.chats[count].character;
 
-                bossDisplayPic.GetComponent<Image>().sprite = bossSide.characterImage;
+                leftSideDisplayPic.GetComponent<Image>().sprite = bossSide.characterImage;
 
                 sentence = chat.chats[count].sentence;
 
-                bossDialogueText.text = sentence;
+                rightSideDialogueText.text = sentence;
                 StopAllCoroutines();
-                StartCoroutine(TypeSentence(sentence, bossDialogueBGImage, bossDialogueText));
+                StartCoroutine(TypeSentence(sentence, leftSideDialogueBGImage, rightSideDialogueText));
                 break;
             case Side.RightSide:
-                bossDialogue.SetActive(false);
-                playerDialogue.SetActive(true);
+                rightSideDialogue.SetActive(false);
+                leftSideDialogue.SetActive(true);
 
                 CharacterProfile playerSide = chat.chats[count].character;
 
-                playerDisplayPic.GetComponent<Image>().sprite = playerSide.characterImage;
+                rightSideDisplayPic.GetComponent<Image>().sprite = playerSide.characterImage;
 
                 sentence = chat.chats[count].sentence;
 
-                playerDialogueText.text = sentence;
+                leftSideDialogueText.text = sentence;
                 StopAllCoroutines();
-                StartCoroutine(TypeSentence(sentence, playerDialogueBGImage, playerDialogueText));
+                StartCoroutine(TypeSentence(sentence, rightSideDialogueBGImage, leftSideDialogueText));
                 break;
             default:
                 break;
