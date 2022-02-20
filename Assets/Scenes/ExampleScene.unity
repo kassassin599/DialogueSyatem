@@ -247,6 +247,18 @@ PrefabInstance:
       propertyPath: m_textAlignment
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 5255575731584025496, guid: c99c1155653934f4ca0445c58ebb450e,
+        type: 3}
+      propertyPath: chat
+      value: 
+      objectReference: {fileID: 11400000, guid: b03bef419817c77429da2a3865b24e2c,
+        type: 2}
+    - target: {fileID: 5255575731584025496, guid: c99c1155653934f4ca0445c58ebb450e,
+        type: 3}
+      propertyPath: charactersList
+      value: 
+      objectReference: {fileID: 11400000, guid: cf15980c1c3d2474cb4eba48ee8d9a6b,
+        type: 2}
     - target: {fileID: 5255575731584025497, guid: c99c1155653934f4ca0445c58ebb450e,
         type: 3}
       propertyPath: m_LocalPosition.x

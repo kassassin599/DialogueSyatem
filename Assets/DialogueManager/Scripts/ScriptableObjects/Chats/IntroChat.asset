@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5349a36e612a5534295c13f922c5249c, type: 3}
+  m_Name: IntroChat
+  m_EditorClassIdentifier: 
+  chats:
+  - character: {fileID: 11400000, guid: 59d4722b49bb7244f94565ea7cdc0a21, type: 2}
+    chooseSide: 0
+    sentence: Hello, how are you this fine evening?
+  - character: {fileID: 11400000, guid: 695cf79fda6698444a5effb69184460c, type: 2}
+    chooseSide: 1
+    sentence: I'm great, thank you.
+  - character: {fileID: 11400000, guid: 59d4722b49bb7244f94565ea7cdc0a21, type: 2}
+    chooseSide: 0
+    sentence: Are you liking this new Dialogue system?
+  - character: {fileID: 11400000, guid: 695cf79fda6698444a5effb69184460c, type: 2}
+    chooseSide: 1
+    sentence: Yes, there's so much customisability and so much to learn. This makes
+      talking to you real easy.
