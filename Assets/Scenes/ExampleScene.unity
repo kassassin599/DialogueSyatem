@@ -211,53 +211,23 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1045557400}
     m_Modifications:
-    - target: {fileID: 5255575731541070530, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
-        type: 2}
-    - target: {fileID: 5255575731541070530, guid: c99c1155653934f4ca0445c58ebb450e,
+    - target: {fileID: 5255575730654203007, guid: c99c1155653934f4ca0445c58ebb450e,
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 5255575731541070530, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575731541070530, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575731541070530, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575731541070530, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575731541070530, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_textAlignment
-      value: 65535
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575731584025496, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: chat
-      value: 
-      objectReference: {fileID: 11400000, guid: b03bef419817c77429da2a3865b24e2c,
+      objectReference: {fileID: 5017010140059485951, guid: 24cc16d30123d1c4baa6adfcaa936b59,
         type: 2}
-    - target: {fileID: 5255575731584025496, guid: c99c1155653934f4ca0445c58ebb450e,
+    - target: {fileID: 5255575730753187053, guid: c99c1155653934f4ca0445c58ebb450e,
         type: 3}
-      propertyPath: charactersList
+      propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 11400000, guid: cf15980c1c3d2474cb4eba48ee8d9a6b,
+      objectReference: {fileID: 5017010140059485951, guid: 24cc16d30123d1c4baa6adfcaa936b59,
+        type: 2}
+    - target: {fileID: 5255575730967458623, guid: c99c1155653934f4ca0445c58ebb450e,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5017010140059485951, guid: 24cc16d30123d1c4baa6adfcaa936b59,
         type: 2}
     - target: {fileID: 5255575731584025497, guid: c99c1155653934f4ca0445c58ebb450e,
         type: 3}
@@ -369,42 +339,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueParent
       objectReference: {fileID: 0}
-    - target: {fileID: 5255575732185029406, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
-        type: 2}
-    - target: {fileID: 5255575732185029406, guid: c99c1155653934f4ca0445c58ebb450e,
+    - target: {fileID: 5255575731952975729, guid: c99c1155653934f4ca0445c58ebb450e,
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 5255575732185029406, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575732185029406, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575732185029406, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575732185029406, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 5255575732185029406, guid: c99c1155653934f4ca0445c58ebb450e,
-        type: 3}
-      propertyPath: m_textAlignment
-      value: 65535
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5017010140059485951, guid: 24cc16d30123d1c4baa6adfcaa936b59,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c99c1155653934f4ca0445c58ebb450e, type: 3}
 --- !u!224 &1010332890 stripped
